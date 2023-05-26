@@ -10,17 +10,98 @@ body {
 }
 .green {
     background-color: #16a085;
-    height: 300px;
-    width: 550px;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    margin-left: 30px;
     margin-right: 30px;
-    margin-top: 200px;
+    margin-left: 30px;
 }
 .white {
     background-color: white;
-    margin-top: 40px;
-    width: 40vh;
-    margin-bottom: 70px;
+    margin-top: 100px;
+    width: 40vw;
+    margin-bottom: 50px;
+    height: 60vh;
+    border-radius: 3px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.beidah {
+    margin-left: 50px;
+    margin-right: 170px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.acc {
+    margin-top: 30px;
+    margin-left: 67px;
+    width: 20px;
+    height: 20px;
+    border: 0.5px rgb(192, 185, 185) solid;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+.acc:hover {
+    box-shadow: 0px 0px 20px rgba(82, 78, 78, 0.9);
+    cursor: pointer;
+}
+.thanks {
+    font-size: 13px;
+    color: #d2d0cd;
+    margin-left: 50px;
+    margin-top: 13px;
+}
+.bike {
+    width: 40vw;
+    height: 300px;
+    padding-top: 30px;
+    position: absolute;
+    top: 170px;
+}
+.first {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+   
+}
+.second {
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    margin-bottom: 10px;
+}
+.third {
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    
+}
+.dollar {
+    margin-left: 52px;
+    color: #000a0e;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.dollars {
+    margin-left: 73px;
+    color: #000a0e;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.chap {
+    margin-right: 120px;
+    color: #7c8793;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+.chapt {
+    margin-right: 260px;
+    color: #5e6164;
+    font-size: 20px;
+    font-weight: bolder;
 }
